@@ -11,12 +11,12 @@ while (isNaN(investment) === true || rate <= 0 ) {           //VERIFY INVESTMENT
 }
 
 rate = parseFloat(prompt('Enter interest rate as x.xx'));
-while (isNaN(rate) === true || rate <= 0 || rate > 6) {      //VERIFY INVESTMENT IS NUMBER AND NOT 0 AND >= 6
+while (isNaN(rate) === true || rate <= 0 || rate > 6) {      //VERIFY INVESTMENT IS NUMBER AND NOT 0 AND IS <= 6
     rate = parseFloat(prompt('Enter interest rate as x.xx'));
 }
 
 years = parseInt(prompt('Enter the number of years you want to invest for'));
-while (isNaN(years) === true || years <= 0 || years > 30) {  //VERIFY YEARS IS NUMBER AND NOT 0 AND <= 30
+while (isNaN(years) === true || years <= 0 || years > 30) {  //VERIFY YEARS IS NUMBER AND NOT 0 AND IS <= 30
     years = parseInt(prompt('Enter the number of years you want to invest for'));
 }
 
