@@ -23,7 +23,7 @@ while (isNaN(years) === true || years <= 0 || years > 30) {  //VERIFY YEARS IS N
 // CALCULATE FUTURE VALUE
 futureValue = investment;
 for (let i = 0; i < years; i++) {
-    futureValue = futureValue + (futureValue * rate / 100); //TESTING GIT "STAGE CHANGE"
+    futureValue = futureValue + (futureValue * rate / 100); //TESTING GIT "STAGE CHANGES" 2
 }
 
 // DISPLAY RESULT
